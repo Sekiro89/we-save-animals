@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  margin: 2em;
+  font-family: "poppins";
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("images/bgblack.jpg");
+  background-size: cover;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  width: 100%;
+  height: 90vh;
+  z-index: -1;
+  animation: introload 2s forwards;
+  overflow: hidden;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: rgb(0, 200, 255);
+  text-align: right;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: 18px;
+}
+.navbar a:hover {
+  background-color: rgb(255, 187, 0);
+  color: rgb(176, 75, 17);
+  border-radius: 0.8em;
+}
+.navbar .container {
+  padding: 18px;
+  margin-top: 5px;
+  height: 20px;
+}
+
+.logo {
+  width: 5em;
+}
+
+.header-cta {
+  margin-top: 8em;
+}
+.header-cta .wsa-cta {
+  font-size: 30px;
+  color: orange;
+}
+.header-cta .cite-cta {
+  color: green;
+  font-size: 20px;
+}
+
+.about-ata {
+  display: block;
+  margin-top: 15em;
+}
+
+.hero-pta {
+  color: gray;
+  font-size: 30px;
+  -webkit-text-decoration: underline orange;
+          text-decoration: underline orange;
+}
+
+.donate-btn {
+  margin: 10px;
+  width: 10%;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: orange;
+  color: #fff;
+  box-shadow: 0px 2px 2px #ddd;
+}
+
+footer .footer-cta {
+  background-color: black;
+  color: #ffffff;
+  padding: 1em;
+}
+footer .foot-cta {
+  display: absolute;
+  margin-left: 10em;
+  width: 10%;
+  height: 5%;
+}/*# sourceMappingURL=about.css.map */
